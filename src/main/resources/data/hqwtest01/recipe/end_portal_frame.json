@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "///",
+    "/*/",
+    "///"
+  ],
+  "key": {
+    "/": "minecraft:stick",
+    "*": "minecraft:ender_pearl"
+  },
+  "result": {
+    "id": "minecraft:end_portal_frame",
+    "count":64
+  }
+}

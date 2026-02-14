@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " / ",
+    "///",
+    "///"
+  ],
+  "key": {
+    "/": "minecraft:dirt"
+  },
+  "result": {
+    "id": "hqwtest01:suspicious_substance",
+    "count":4
+  }
+}

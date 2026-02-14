@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "hqwtest01:item/jjjsword"
+  },
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [50, -90, 50],
+      "translation": [0, 100.0, 0.0],
+      "scale": [10, 10, 10]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [50, 90, -50],
+      "translation": [0, 100.0, 0.0],
+      "scale": [99.8, 99.9, 98.8]
+    },
+    "firstperson_righthand": {
+      "rotation": [50, -90, 50],
+      "translation": [0, 100.0, -300.0],
+      "scale": [99.1, 90.2, 99.1]
+    },
+    "firstperson_lefthand": {
+      "rotation": [50, 90, -50],
+      "translation": [0, 100.0, -300.0],
+      "scale": [99.1, 90.2, 99.1]
+    }
+  }
+}
