@@ -1,31 +1,31 @@
 {
 	"schemaVersion": 1,
-	"id": "hqwtest01",
+	"id": "lazy_dog",
 	"version": "${version}",
-	"name": "hqwtest01",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Lazy Dog",
+	"description": "这个模组非常懒狗，你甚至合成出末地传送门框架，且新增一套护甲、一把剑和一个粉",
 	"authors": [
-		"Me!"
+		"hqw"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/hqw14",
+		"sources": "https://github.com/hqw14/mc-mod-test01"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/hqwtest01/icon.png",
+	"icon": "assets/lazy_dog/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.hqw.minecraft.test01.Hqwtest01"
+          "com.hqw.minecraft.lazy_dog.LazyDog"
 		],
 		"client": [
-			"com.hqw.minecraft.test01.Hqwtest01Client"
+          "com.hqw.minecraft.lazy_dog.LazyDogClient"
 		]
 	},
 	"mixins": [
-		"hqwtest01.mixins.json",
+      "lazy_dog.mixins.json",
 		{
-			"config": "hqwtest01.client.mixins.json",
+			"config": "lazy_dog.client.mixins.json",
 			"environment": "client"
 		}
 	],

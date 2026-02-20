@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "lazy_dog:item/guidite_chestplate"
+  }
+}

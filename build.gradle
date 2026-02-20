@@ -22,7 +22,7 @@ loom {
 	splitEnvironmentSourceSets()
 
 	mods {
-		"hqwtest01" {
+		"lazy_dog" {
 			sourceSet sourceSets.main
 			sourceSet sourceSets.client
 		}

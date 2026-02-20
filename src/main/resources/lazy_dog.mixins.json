@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "com.hqw.minecraft.lazy_dog.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ExampleMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
